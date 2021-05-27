@@ -1,0 +1,52 @@
+<html>
+<head>
+<title> Sayang </title>
+
+<script type="text/javascript">
+flag=1
+function FunctionOke()
+{
+    alert("Makasih Sayangg")
+    alert("Kamu Juga Cantik Kok Sayang")
+    alert("I LOVE YOU :v")
+}
+function FunctionNo()
+{
+    if(flag==1)
+        {
+            Bn.style.top=440
+            Bn.style.left=300
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=400
+            Bn.style.left=50
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=370
+            Bn.style.left=220
+            flag=1
+        }
+}
+body(
+
+	)
+</script>
+
+</head>
+<body>
+<h3 style="#">Menurutmu Aku Ganteng Ngga?</h3>
+<img src="img/jogja.png" height="300" >
+<div id="No" style="position:absolute; left:64px; top:370px; width:210px;
+height:210px;">
+<input type="button" value=" Ganteng Banget " onClick="FunctionOke()" />
+</div>
+<div ID="Bn" style="position:absolute; left:220px; top:370px; width:210px; height:210px;">
+<input type="button" value=" Gak, Jelek Anjing!! " onMouseOver="FunctionNo()" />
+</div>
+
+</body>
+</html>
