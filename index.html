@@ -1,7 +1,7 @@
 <html>
 <head>
 <title> Sayang </title>
-
+<link rel="stylesheet" type="text/css" href="style.css">
 <script type="text/javascript">
 flag=1
 function FunctionOke()
@@ -15,37 +15,36 @@ function FunctionNo()
     if(flag==1)
         {
             Bn.style.top=440
-            Bn.style.left=300
+            Bn.style.left=600
             flag=2
         }
     else if(flag==2)
         {
-            Bn.style.top=400
-            Bn.style.left=50
+            Bn.style.top=440
+            Bn.style.left=350
             flag=3
         }
     else if(flag==3)
         {
             Bn.style.top=370
-            Bn.style.left=220
+            Bn.style.left=520
             flag=1
         }
 }
-body(
 
-	)
 </script>
 
 </head>
 <body>
-<h3 style="#">Menurutmu Aku Ganteng Ngga?</h3>
-<img src="img/jogja.png" height="300" >
-<div id="No" style="position:absolute; left:64px; top:370px; width:210px;
+    <div class="navbar">
+<h1 style="#">KEJUTANN!!</h1>
+</div>
+<div id="No" style="position:absolute; text-align: center; left:250px; top:370px; width:210px;
 height:210px;">
 <input type="button" value=" Ganteng Banget " onClick="FunctionOke()" />
 </div>
-<div ID="Bn" style="position:absolute; left:220px; top:370px; width:210px; height:210px;">
-<input type="button" value=" Gak, Jelek Anjing!! " onMouseOver="FunctionNo()" />
+<div ID="Bn" style="position:absolute; text-align: center; left:520px; top:370px; width:210px;height:210px;">
+<input type="button" value=" Gak, Jelek Anjing!! " onmousemove="FunctionNo()" />
 </div>
 
 </body>
